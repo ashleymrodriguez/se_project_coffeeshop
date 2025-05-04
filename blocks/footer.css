@@ -38,14 +38,14 @@
 }
 
 .footer__list-item {
-  font-style: normal;
-  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 16px;
   line-height: 20px;
 }
 
 .footer__social-icon {
-  margin-right: 10px;
   width: 16px;
   height: 16px;
 }
@@ -53,9 +53,15 @@
 .footer__social-link {
   text-decoration: none;
   color: #fff;
+  transition: color 0.2s linear;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__copyright {
+  margin: 0;
   font-size: 16px;
   line-height: 20px;
 }

@@ -1,11 +1,13 @@
 .header {
   padding: 30px 80px 40px;
+  box-sizing: border-box;
   background-color: #fff;
   background: center / cover no-repeat #fff url(../images/background_header.svg);
   position: relative;
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__title {
@@ -40,6 +42,7 @@
   width: 646px;
   height: 568px;
   position: absolute;
+  z-index: -1;
 }
 
 .header__footer {
