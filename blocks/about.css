@@ -19,7 +19,7 @@
 
 .about__content {
   max-width: 660px;
-  margin-bottom: 19px;
+  margin-top: 19px;
   display: flex;
   flex-direction: column;
   gap: 20px;
